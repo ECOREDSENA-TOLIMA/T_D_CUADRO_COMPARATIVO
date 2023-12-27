@@ -76,7 +76,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Anexos_cuadros_comparativos.zip',
       },
       {
         icono: 'fas fa-download',

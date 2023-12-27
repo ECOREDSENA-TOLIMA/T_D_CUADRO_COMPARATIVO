@@ -22,6 +22,17 @@
   100%
     transform: translateY(0px)
 
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #12263F
 
@@ -58,3 +69,20 @@
         left: -3%
       @media screen and ( max-width: $bp-max-sm )
         left: -4%
+
+  .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: $color-acento-botones
+    color: #fff
+
+  .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #CDF5E2
+
+  .tarjeta--gris
+    background-color: #E0E5EC
+
+  .tarjeta-avatar-b__img
+    min-height: 13%
+    min-width: 13%
+    position: relative
+    display: flex
+    align-items: center
